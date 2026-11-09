@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перегляд кошика — Практична №10</title>
+</head>
+<body>
+    <main>
+        <center>
+            <h1>Перегляд кошика інтернет-магазину</h1>
+
+            <h2>Ідентифікатор кошика</h2>
+
+            <p>
+                <input
+                    type="number"
+                    id="cartId"
+                    min="1"
+                    value="1"
+                    size="20"
+                >
+            </p>
+
+            <p>
+                <button type="button" id="loadBtn">
+                    Завантажити кошик
+                </button>
+            </p>
+
+            <h3 id="status">
+                Введіть ID кошика та натисніть кнопку.
+            </h3>
+
+            <section id="cartResult"></section>
+
+            <p id="error" role="alert"></p>
+        </center>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
